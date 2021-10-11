@@ -1,0 +1,4081 @@
+{
+	"modes": ["test", "dev"],
+	"model": "Pizza",
+	"documents": {
+		"general": [],
+		"dev": [
+			{
+				"_id": "180000000000000000000001",
+				"category": "custom",
+				"title": "Custom pizza",
+				"subtitle": "330 cal/slice,8 slices",
+				"description": "Build your own pizza",
+				"includeTax": true,
+				"discount": 0.2,
+				"images": ["130000000000000000000018", "130000000000000000000019"],
+				"crust": [
+					{
+						"ingredient": "170000000000000000000001",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 15,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 3.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": false,
+								"price": 12,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.75
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "personal",
+								"default": false,
+								"price": 5,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 1
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 1
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0.75
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0.75
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000002",
+						"default": true,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 13.55,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 1
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": false,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": false,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": false,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 3.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": false,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.75
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000003",
+						"default": true,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 13,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 3.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": false,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.75
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000004",
+						"default": true,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 17.84,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000006",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000007",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000008",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": false,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000011",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000012",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 0
+															},
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															},
+															{
+																"value": "light",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": false,
+										"maxAllowedIngredient": 5,
+										"sections": [
+											{
+												"category": "meats",
+												"required": false,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2,
+																"half": 1
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 3.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "vegans",
+												"required": false,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": false,
+														"amounts": [
+															{
+																"value": "extra",
+																"default": false,
+																"full": 2.5,
+																"half": 1.5
+															},
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"_id": "180000000000000000000002",
+				"category": "meats",
+				"title": "peperoni pizza",
+				"subtitle": "330 cal/slice,8 slices",
+				"description": "pizza with amazing pieces of meat",
+				"includeTax": false,
+				"discount": 0,
+				"images": ["130000000000000000000020", "130000000000000000000021"],
+				"crust": [
+					{
+						"ingredient": "170000000000000000000001",
+						"default": true,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 15,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 12,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "personal",
+								"default": false,
+								"price": 5,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000002",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 13.55,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000003",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 13,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000004",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 17.84,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000005",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "meats",
+												"required": true,
+												"maxAllowedIngredient": 2,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000013",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000014",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"_id": "180000000000000000000003",
+				"category": "vegans",
+				"title": "vegan pizza",
+				"subtitle": "150 cal/slice,8 slices",
+				"description": "Healthy pizza fresh vegetable",
+				"includeTax": false,
+				"discount": 0,
+				"images": ["130000000000000000000021", "130000000000000000000022"],
+				"crust": [
+					{
+						"ingredient": "170000000000000000000001",
+						"default": true,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 15,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 12,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "personal",
+								"default": false,
+								"price": 5,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000002",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 13.55,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000003",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": false,
+								"price": 13,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"value": "medium",
+								"default": true,
+								"price": 11,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"ingredient": "170000000000000000000004",
+						"default": false,
+						"layer": "primary",
+						"section": "crust",
+						"sizes": [
+							{
+								"value": "large",
+								"default": true,
+								"price": 17.84,
+								"layers": [
+									{
+										"category": "basic",
+										"required": true,
+										"maxAllowedIngredient": 0,
+										"sections": [
+											{
+												"category": "sauce",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000006",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "cheese",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000009",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											},
+											{
+												"category": "crust Flavor",
+												"required": true,
+												"maxAllowedIngredient": 1,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000010",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true,
+																"full": 0
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"category": "toppings",
+										"required": true,
+										"maxAllowedIngredient": 1,
+										"sections": [
+											{
+												"category": "vegans",
+												"required": true,
+												"maxAllowedIngredient": 3,
+												"allowedIngredients": [
+													{
+														"ingredient": "170000000000000000000015",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													},
+													{
+														"ingredient": "170000000000000000000016",
+														"default": true,
+														"amounts": [
+															{
+																"value": "regular",
+																"default": true
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

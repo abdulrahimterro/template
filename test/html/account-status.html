@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Onboarding status</title>
+		<meta name="description" content="Connect Onboarding for Express accounts" />
+
+		<link rel="stylesheet" href="css/base.css" />
+
+		<script src="https://js.stripe.com/v3/"></script>
+		<script src="utils.js" defer></script>
+		<script src="account-status.js" defer></script>
+	</head>
+
+	<body>
+		<main>
+			<a href="onboard-service.html">go to service onboarding</a>
+			<br />
+			<br />
+
+			<div id="account-status">Fetching status ..</div>
+
+			<div id="messages" role="alert" style="display: none"></div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+{
+	"port": 7000,
+
+	"server": {
+		"domain": "http://localhost"
+	},
+
+	"App": {
+		"name": "Pizza POS"
+	},
+
+	"website": {
+		"domain": "https://website.com",
+		"onboardingRefreshURL": "api/public/payment/refresh-onboarding",
+		"onboardingReturnURL": "test/html/payment.html"
+	},
+
+	"database": {
+		"mongodb": {
+			"uri": "mongodb://127.0.0.1:27017/?replicaSet=dev",
+			"dbName": "Pizza-POS",
+			"debug": false
+		}
+	},
+
+	"services": { "sms": false },
+
+	"jwt": {
+		"accessToken": {
+			"key": "secret",
+			"expirationDuration": "20d"
+		},
+		"refreshToken": {
+			"key": "refreshSecret",
+			"expirationDuration": 60
+		},
+		"tokenCode": {
+			"key": "codeSecret",
+			"expirationDuration": "1d"
+		}
+	},
+
+	"resetPassword": {
+		"duration": 2,
+		"unit": "days"
+	},
+
+	"bcrypt": {
+		"rounds": 10
+	},
+
+	"mail": {
+		"host": "smtp.mailgun.org",
+		"email": "",
+		"password": "",
+		"port": 587
+	},
+
+	"assetsPath": {
+		"private": "assets/private",
+		"public": "assets/public",
+		"emails": "assets/emails"
+	},
+
+	"stripe": {
+		"test": {
+			"secretKey": "sk_test_laM9j4OcTMEsXTK9zDWvrhhZ",
+			"publishableKey": "pk_test_XPsFo0CBhofyIHVttNwJm3jK",
+			"webhookSecret": ""
+		},
+		"live": { "secretKey": "", "publishableKey": "" },
+		"currency": "usd"
+	},
+
+
+}

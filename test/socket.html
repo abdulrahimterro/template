@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.min.js"></script>
+		<title>Pizza POS Socket test</title>
+	</head>
+
+	<script>
+		const socket = io('ws://localhost:7000', {
+			auth: {
+				token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImlhdCI6MTYyNjU3ODA3MCwiZXhwIjoxNjI4MzA2MDcwfQ.PLDSxvjZq2rSrxzaCmRbZP6ZmTTFjv_enW2AepgzO6s',
+			},
+			transports: ['polling'],
+		});
+		socket.on('connect', function () {
+			console.log('Socket connected.');
+		});
+
+		socket.on('connect_error', (err) => {
+			console.log(err.data); // if auth error data = {code: 403}
+			// if (err.data.code  === 403) update token and retry
+		});
+
+		socket.on('data', (data) => {
+			document.write(JSON.stringify(data));
+		});
+		socket.on('init', (data) => {
+			document.write(JSON.stringify(data));
+		});
+	</script>
+
+	<body>
+		Hello World!
+	</body>
+</html>

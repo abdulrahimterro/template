@@ -1,0 +1,238 @@
+{
+	"modes": ["test", "dev"],
+	"model": "User",
+	"documents": {
+		"general": [],
+		"dev": [
+			{
+				"_id": "100000000000000000000000",
+				"firstName": "Super",
+				"lastName": "Admin",
+				"email": "SuperAdmin@example.com",
+				"password": "P@$$w0rd",
+				"phone": "+11111111110",
+				"addresses": [{ "country": "Syria", "city": "Damascus", "location": "", "latitude": 36, "longitude": 35 }],
+				"avatar": "130000000000000000000000",
+				"verificationCode": "111111",
+				"verified": true,
+				"verifyAttempts": [],
+				"type": "superAdmin",
+				"abilities": [
+					{
+						"action": "manage",
+						"subject": "all"
+					}
+				]
+			},
+			{
+				"_id": "100000000000000000000001",
+				"firstName": "Restaurant",
+				"lastName": "Restaurant",
+				"email": "Restaurant@example.com",
+				"password": "P@$$w0rd",
+				"phone": "+11111111101",
+				"addresses": [{ "country": "Syria", "city": "Damascus", "location": "", "latitude": 0, "longitude": 0 }],
+				"avatar": "130000000000000000000001",
+				"verificationCode": "111111",
+				"verified": true,
+				"verifyAttempts": [],
+				"type": "Restaurant",
+				"abilities": [
+					{
+						"action": "create",
+						"subject": "Pizza"
+					},
+					{
+						"action": "update",
+						"subject": "Pizza"
+					},
+					{
+						"action": "delete",
+						"subject": "Pizza"
+					},
+					{
+						"action": "create",
+						"subject": "Pizza_Ingredient"
+					},
+					{
+						"action": "update",
+						"subject": "Pizza_Ingredient"
+					},
+					{
+						"action": "delete",
+						"subject": "Pizza_Ingredient"
+					},
+					{
+						"action": "create",
+						"subject": "Branch"
+					},
+					{
+						"action": "read",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "list",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "update",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					}
+				]
+			},
+			{
+				"_id": "100000000000000000000002",
+				"firstName": "Customer 1",
+				"lastName": "Customer 1",
+				"email": "Customer1@example.com",
+				"password": "P@$$w0rd",
+				"phone": "+11111111102",
+				"addresses": [
+					{ "country": "Syria", "city": "Damascus", "location": "", "latitude": 0, "longitude": 0 },
+					{
+						"country": "Tonga",
+						"city": "Lake Fordland",
+						"location": "4012 Gaylord Crescent",
+						"latitude": -61.4096,
+						"longitude": -74.4687
+					}
+				],
+				"avatar": "130000000000000000000002",
+				"verificationCode": "111111",
+				"verified": true,
+				"verifyAttempts": [],
+				"type": "Customer",
+				"abilities": [
+					{
+						"action": "create",
+						"subject": "Order"
+					},
+					{
+						"action": "read",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000002"] }
+					},
+					{
+						"action": "list",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000002"] }
+					},
+					{
+						"action": "cancel",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000002"] }
+					},
+					{
+						"action": "read",
+						"subject": "Payment",
+						"resources": { "key": "user", "resource": ["100000000000000000000002"] }
+					},
+					{
+						"action": "list",
+						"subject": "Payment",
+						"resources": { "key": "user", "resource": ["100000000000000000000002"] }
+					}
+				]
+			},
+			{
+				"_id": "100000000000000000000003",
+				"firstName": "Customer 2",
+				"lastName": "Customer 2",
+				"email": "Customer2@example.com",
+				"password": "P@$$w0rd",
+				"phone": "+11111111103",
+				"addresses": [{ "country": "Syria", "city": "Damascus", "location": "", "latitude": 0, "longitude": 0 }],
+				"avatar": "130000000000000000000003",
+				"verificationCode": "111111",
+				"verified": true,
+				"verifyAttempts": [],
+				"type": "Customer",
+				"abilities": [
+					{
+						"action": "create",
+						"subject": "Order"
+					},
+					{
+						"action": "read",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000003"] }
+					},
+					{
+						"action": "list",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000003"] }
+					},
+					{
+						"action": "cancel",
+						"subject": "Order",
+						"resources": { "key": "user", "resource": ["100000000000000000000003"] }
+					},
+					{
+						"action": "read",
+						"subject": "Payment",
+						"resources": { "key": "user", "resource": ["100000000000000000000003"] }
+					},
+					{
+						"action": "list",
+						"subject": "Payment",
+						"resources": { "key": "user", "resource": ["100000000000000000000003"] }
+					}
+				]
+			},
+			{
+				"_id": "100000000000000000000005",
+				"firstName": "Branch 1",
+				"lastName": "Branch 1",
+				"email": "Branch@example.com",
+				"password": "P@$$w0rd",
+				"phone": "+11111111105",
+				"addresses": [{ "country": "Syria", "city": "Damascus", "location": "", "latitude": 0, "longitude": 0 }],
+				"avatar": "130000000000000000000001",
+				"verificationCode": "111111",
+				"verified": true,
+				"verifyAttempts": [],
+				"type": "Restaurant",
+				"abilities": [
+					{
+						"action": "update",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "read",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "list",
+						"subject": "Branch",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "create",
+						"subject": "Driver",
+						"resources": { "key": "_id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "update",
+						"subject": "Order",
+						"resources": { "key": "branch.id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "read",
+						"subject": "Order",
+						"resources": { "key": "branch.id", "resource": ["210000000000000000000001"] }
+					},
+					{
+						"action": "list",
+						"subject": "Order",
+						"resources": { "key": "branch.id", "resource": ["210000000000000000000001"] }
+					}
+				]
+			}
+		]
+	}
+}

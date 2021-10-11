@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Connect Onboarding for Express accounts</title>
+		<meta name="description" content="Connect Onboarding for Express accounts" />
+
+		<link rel="stylesheet" href="css/base.css" />
+
+		<script src="https://js.stripe.com/v3/"></script>
+		<script src="utils.js" defer></script>
+		<script src="onboard-service.js" defer></script>
+	</head>
+
+	<body>
+		<main>
+			<a href="payment.html">go to payment</a>
+			<br />
+			<br />
+			<form id="onboard-form">
+				<label for="serviceId"> Service Id </label>
+				<input id="serviceId" placeholder="Service Id" value="170000000000000000000001" required />
+				<label for="serviceType"> Service Type </label>
+				<select id="serviceType">
+					<option value="HalalMarket" selected>HalalMarket</option>
+					<option value="ExternalEvent">ExternalEvent</option>
+					<option value="Market">Market</option>
+					<option value="Giving">Giving</option>
+					<option value="ZakatMal">ZakatMal</option>
+					<option value="ZakatFitr">ZakatFitr</option>
+				</select>
+				<button id="submit">onboard service</button>
+			</form>
+			<div id="messages" role="alert" style="display: none"></div>
+		</main>
+	</body>
+</html>
